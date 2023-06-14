@@ -42,18 +42,18 @@ let hr = hh;
     else{
         ampm.innerHTML = "AM"
     }
-
-     if(hh > 7 && hh < 12){
-         leftText.innerHTML = "GOOD MORNING!! WAKE UP!!"
+    
+    if(hh > 7 && hh < 12){
+         text.innerHTML = " GRAB SOME HEALTHY BREAKFAST!!!";
     }
     else if(hh > 12 && hh < 18){
-        leftText.innerHTML = "GOOD AFTERNOON !! TAKE SOME SLEEP"
+        text.innerHTML = " LET'S HAVE SOME LUNCH !!";
     }
     else if(hh > 18 && hh < 22){
-        leftText.innerHTML ="GOOD EVENING !!"
+        text.innerHTML = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
     }
     else if(hh > 22 &&hh < 7){ 
-        leftText.innerHTML = "GOOD NIGHT !!"
+        text.innerHTML = " CLOSE YOUR EYES AND GO TO SLEEP";
     }
     
 }
@@ -63,22 +63,22 @@ function setAlarm(){
     let hh = date.getHours();
     
     if(parseInt(select[0].value) === hh){
-        text.innerHTML = " GRAB SOME HEALTHY BREAKFAST!!!";
+        leftText.innerHTML = "GOOD MORNING!! WAKE UP!!"
         image.src = "./Images/Component 30 – 1.svg"
         
     }
     if(parseInt(select[1].value) === hh){
-        text.innerHTML = " LET'S HAVE SOME LUNCH !!";
+        leftText.innerHTML = "GOOD AFTERNOON !! TAKE SOME SLEEP"
         image.src = "./Images/Component 31 – 1.svg"
         
     }
     if(parseInt(select[2].value) === hh){
-        text.innerHTML = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
+        leftText.innerHTML ="GOOD EVENING !!"
         image.src = "./Images/lunch_image.png"
     }
-if(parseInt(select[3].value) === hh){
-    text.innerHTML = " CLOSE YOUR EYES AND GO TO SLEEP";
-    image.src = "./Images/Component 32 – 1.svg"
+    if(parseInt(select[3].value) === hh){
+        leftText.innerHTML = "GOOD NIGHT !!"
+        image.src = "./Images/Component 32 – 1.svg"
 
 }
 
