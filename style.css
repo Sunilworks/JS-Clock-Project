@@ -216,12 +216,12 @@ h3{
     .secondDiv{
         top: 155px;
         left: 45px;
-        width: 270px;
+        width: 285px;
     }
     .thirdDiv{
         top: 170px;
         left: 70px;
-        width: 210px;
+        width: 235px;
     }
     .rightText{
         position: absolute;
@@ -239,7 +239,7 @@ h3{
         
     }
     .setAction{
-        width: 310px;
+        width: 90%;
     }
     .rightImage{
         position: absolute;
@@ -249,16 +249,16 @@ h3{
     }
     
     .imge{
-        width: 310px;
+        width: 96%;
     }
     .Greeting{
         position:absolute;
-        top: 980px;
-        width: 310px;
+        top: 1000px;
+        width: 90%;
         
     }
     .greetText{
-        font-size: 20px;
+        font-size: 30px;
     }
     .left_footer{
         position: absolute;
@@ -269,25 +269,28 @@ h3{
         margin: 30px 15px;
     }
     .size{
-        width: 310px;
+        width: 90%;
     }
     .timeTxt{
         font-size: large;
     }
     .box{
-        width: 15%;
+        width: 17%;
         height: 90%;
         font-size: large;
         font-weight: bolder;
     }
     button{
+        margin-bottom: 20px;
         width: 210px;
     }
     .footerNote{
-        font-size: 15px;
-        margin-left: 4px;
+        font-size: 16px;
+        margin-left: 6px;
+        margin-right: 15px;
         width: 80%;
         height: 110px;
+        margin-bottom: 20px;
     }
     select{
         width: 120px;
@@ -298,6 +301,9 @@ h3{
     .actionTime{
         margin-bottom: 20px;
        
+    }
+    .color{
+        font-size: 20px;
     }
 }
 
